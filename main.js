@@ -119,10 +119,108 @@
 // }
 //  var values= sum(2,3)
 //Generic  Data type
-function show(arg) {
-    return arg;
-}
-var output = show("Rahul");
-var output1 = show(1);
-console.log(output);
-console.log(output1);
+// function show<T>(arg:T):T{
+//     return arg;
+// }
+// var output = show<string>("Rahul")
+// var output1 = show<number>(1)
+// console.log(output)
+// console.log(output1)
+//If-else
+// if(true){
+//     console.log("Hello")
+// }
+// else{
+//     console.log("Hi")
+// }
+//Nasted if-else
+// var x = 1
+// if (x > 0) {
+//     console.log("Greater than 0")
+// }
+// else if (x < 0) {
+//     console.log("less than 0")
+// }
+// else {
+//     console.log("equal to 0")
+// }
+//Switch case
+// var x = "C"
+// switch(x){
+//     case "A" : {
+//         console.log("A")
+//         break
+//     }
+//     case "B" : {
+//         console.log("B")
+//         break
+//     }
+//     case "C" : {
+//         console.log("C")
+//         break
+//     }
+//     default : {
+//         console.log("Invalid")
+//         break
+//     }
+// }
+// For Loop
+// for(let i=1;i<=10;i++)
+// {
+//     console.log(i)
+// }
+// For ...of Loop
+// var array = [1,2,3,4,5,6,7,8,9]
+// for(let i of array){
+//     console.log(i)
+// }
+// For ...in Loop
+// var array = [1,2,3,4,5,6,7,8,10]
+// for(let i in array){
+//     console.log(i)
+//     console.log(array[i])
+// }
+// While loop
+// var i:number=1;
+// while(i<=10){
+//     console.log(i);
+//     document.write(i.toString(),',')
+//     i++;
+// }
+//Do...While Loop
+// var i = 1;
+// do{
+//     console.log(i)
+//     document.write(i.toString(),' ,')
+//     i++
+// }while(i<=10)
+// Break
+// var i = 1
+// while(i<=10){
+//     debugger
+//     console.log(i)
+//     if(i==5){
+//         break
+//     }
+//     i++
+// }
+// Continue Statement
+// var num=20
+// var count=0
+// for(i=0;i<=num;i++){
+//     if(i%2==0){
+//         continue
+//     }
+//     count++
+// }
+// console.log(count)
+//Assignment Operator
+// var a = 10;
+// var b = 11;
+// a+=b; //a = a + b;
+// console.log(a)
+// a = a+b
+// //Negation Operator
+// var a=10
+// var b = -a //negation
+// console.log(b)
