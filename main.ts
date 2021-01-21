@@ -276,3 +276,26 @@
 // var a=10
 // var b = -a //negation
 // console.log(b)
+
+// Data modifier/ Data specifier
+// export class abc{
+//      public x:number=10;
+//      private y:number=10;
+//      protected z:number=10;
+
+//      display(){
+//          this.x=11
+//          this.y=11
+//          this.z=11
+//      }
+// }
+// var obj = new abc()
+// obj.x
+// obj.y; //not accessed
+// obj.z; //not accessed
+
+// class xyz extends abc {
+//     x=100
+//     y=120 //not accessed
+//     z=200
+// }
